@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+     >
+
+    <LinearLayout
+        android:id="@+id/list_display_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/abcd"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/fileNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="hi hello"/>
+                <TextView
+                    android:id="@+id/filePathTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="android"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/abcde"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/SwipeIndicatorImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

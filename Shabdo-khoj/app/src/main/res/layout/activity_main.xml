@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+        <ListView
+            android:id="@+id/ListView_Home_Screen_Tab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="true"
+            android:smoothScrollbar="true"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            />
+    </LinearLayout>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ADD FILE"
+        android:onClick="browseAndAddFiles"/>
+
+</LinearLayout>
