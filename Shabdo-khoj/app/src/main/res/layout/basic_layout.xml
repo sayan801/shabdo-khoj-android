@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SingleProfile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_gray_border"
+    android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_gray_border"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/fileNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:layout_marginLeft="1dp"
+                android:text="File name" />
+            <TextView
+                android:id="@+id/filePathTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:layout_marginLeft="1dp"
+                android:text="File path" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".3"
+            android:background="@drawable/bottom_gray_border"
+            android:orientation="vertical" >
+                <ImageView
+                android:id="@+id/swipeIndicatorImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:layout_margin="1dp"
+                android:src="@drawable/side" />
+        </LinearLayout>
+</LinearLayout>
